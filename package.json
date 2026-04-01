@@ -1,0 +1,13 @@
+{
+  "name": "claude-code-leak-incident-reconstruction-using-bun",
+  "version": "1.0.0",
+  "description": "Reconstructing the Claude Code Leak Incident Using Bun.js Bundler.",
+  "main": "index.js",
+  "scripts": {
+    "build": "bun build cli.ts --minify --outfile=cli.js --sourcemap=linked",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
