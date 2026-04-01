@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "sources": ["cli.ts"],
+  "sourcesContent": [
+    "#!/usr/bin/env node\r\n// (c) Anthropic PBC. All rights reserved. Use is subject to the Legal Agreements outlined here: https://code.claude.com/docs/en/legal-and-compliance.\r\n\r\n// Version: 2.1.89\r\n\r\n// Want to see the unminified source? We're hiring!\r\n// https://job-boards.greenhouse.io/anthropic/jobs/4816199008\r\nfunction greet(name: string) {          // 第1行\r\n                                        // 第2行（空行）\r\n    if (!name) {                        // 第3行（4空格缩进）\r\n        return \"Hello stranger\";        // 第4行（8空格缩进）\r\n    }                                   // 第5行（4空格缩进）\r\n                                        // 第6行（空行）\r\n    return `Hello ${name}`;             // 第7行（4空格缩进）\r\n}                                       // 第8行\r\n                                        // 第9行（空行）\r\n// 文件结束                              // 第10行\r\n\r\nconsole.log(greet('Claude Code.'))"
+  ],
+  "mappings": ";AAOA,SAAS,CAAK,CAAC,EAAc,CAEzB,GAAI,CAAC,EACD,MAAO,iBAGX,MAAO,SAAS,IAKpB,QAAQ,IAAI,EAAM,cAAc,CAAC",
+  "debugId": "0CD11855101BFF5E64756E2164756E21",
+  "names": []
+}
